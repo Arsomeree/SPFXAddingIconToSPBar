@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-tools-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/myTools/MyToolsApplicationCustomizer.js",
+          "manifest": "./src/extensions/myTools/MyToolsApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "my-tools-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myTools/MyToolsWebPart.js",
+          "manifest": "./src/webparts/myTools/MyToolsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyToolsApplicationCustomizerStrings": "lib/extensions/myTools/loc/{locale}.js",
+    "MyToolsWebPartStrings": "lib/webparts/myTools/loc/{locale}.js"
+  }
+}

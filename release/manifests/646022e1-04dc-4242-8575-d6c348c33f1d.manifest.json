@@ -1,0 +1,45 @@
+{
+  "id": "646022e1-04dc-4242-8575-d6c348c33f1d",
+  "alias": "MyToolsWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "MyTools"
+      },
+      "description": {
+        "default": "Webpart MyTools"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "MyTools"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "my-tools-web-part",
+    "scriptResources": {
+      "my-tools-web-part": {
+        "type": "path",
+        "path": "my-tools-web-part.js"
+      }
+    }
+  }
+}

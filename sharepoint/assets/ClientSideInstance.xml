@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="MyTools"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="8726f5a0-3ac9-4495-b877-68ec4edca97e"
+        Properties="{&quot;elementId&quot;:&quot;sp-appBar&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

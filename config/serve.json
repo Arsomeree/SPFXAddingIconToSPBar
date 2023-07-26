@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://w6fx2.sharepoint.com",
+      "customActions": {
+        "8726f5a0-3ac9-4495-b877-68ec4edca97e": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "/Style%20Library/global.css"
+          }
+        }
+      }
+    },
+    "myTools": {
+      "pageUrl": "https://w6fx2.sharepoint.com",
+      "customActions": {
+        "8726f5a0-3ac9-4495-b877-68ec4edca97e": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "/Style%20Library/global.css"
+          }
+        }
+      }
+    }
+  },
+  "initialPage": "https://enter-your-SharePoint-site/_layouts/workbench.aspx"
+}
