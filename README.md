@@ -1,10 +1,14 @@
 # mytools
 
+
 ## Summary
 
 Short summary on functionality and used technologies.
 
-[picture of the solution in action, if possible]
+![image](https://github.com/Arsomeree/SPFXAddingIconToSPBar/assets/33703509/0c460756-3e57-4b25-a04e-9c289ec88873)
+
+![image](https://github.com/Arsomeree/SPFXAddingIconToSPBar/assets/33703509/f866c281-49e9-46e8-8f28-3d72358e6b5a)
+
 
 ## Used SharePoint Framework Version
 
